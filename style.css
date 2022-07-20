@@ -260,7 +260,7 @@ box-shadow: 0 0 10px 10px #00000010;
     border: 0;
     outline: 0;
     border-radius: 6px;
-    background-color: #fff;
+    /* background-color: #fff; */
     font-size: 15px;
     font-weight: 300;
     /* color: #8D8D8D; */
@@ -351,6 +351,10 @@ box-shadow: 0 0 10px 10px #00000010;
     border-bottom: 1px solid #ffffff;
     outline: 0;
     box-shadow: none;
+    background-color: #142631 !important;
+}
+.cs_bg:hover,
+.cs_bg:active{
     background-color: #142631 !important;
 }
 
@@ -486,3 +490,47 @@ box-shadow: 0 0 10px 10px #00000010;
 .ruleBox i{
     font-size: 10px;
 }
+
+.select_drop,
+.select_drop option{
+    background-color: #142631 !important;
+    color: #c2d7ef;
+}
+.select_drop:focus,
+.select_drop option:focus{
+    background-color: #142631 !important;
+    color: #c2d7ef;
+}
+
+
+
+
+
+/* Datatable CSS */
+#userTable{
+    font-size: 13px;
+}
+#userTable_length{
+    display: none;
+}
+.dataTables_wrapper,
+#userTable_info,
+#userTable_filter,
+#userTable_paginate{
+    color: #fff;font-size: 13px;
+}
+#userTable_previous, #userTable_next, #userTable_paginate .paginate_button {
+    color: #fff !important;
+}
+#userTable_filter input{
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    margin-left: 5px;
+}
+#userTable_filter input:focus{
+    outline: none;color: #fff;
+}
+/* Datatable CSS */
