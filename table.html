@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .filterBox{display: flex;}
+        .tableFilter{
+            width: 300px;
+            margin: 0 10px;
+        }
+        #filterBtn{
+            background: transparent;
+            color: #000;
+            width: 100px;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <br><br>
+    <div class="filterBox">
+        <select class="tableFilter form-control" id="countryName">
+            <option value="none">-- Select Country</option>
+            <option value="Canada">Canada</option>
+            <option value="France">France</option>
+            <option value="Germany">Germany</option>
+            <option value="USA">USA</option>
+        </select>
+        
+        <select class="tableFilter form-control" id="category">
+            <option value="none">-- Select Category</option>
+            <option id="category0" value="Cannabist">Cannabist</option>
+            <option id="category1" value="Chriopractor">Chriopractor</option>
+            <option id="category2" value="Dental">Dental</option>
+            <option id="category3" value="E-commerce">E-commerce</option>
+            <option id="category4" value="Football-Club">Football Club</option>
+            <option id="category5" value="Hvac">Hvac</option>
+            <option id="category6" value="Law-Firm">Law Firm</option>
+            <option id="category7" value="Optometry">Optometry</option>
+            <option id="category8" value="Physiotherapy">Physiotherapy</option>
+            <option id="category9" value="Plastic-Surgeons">Plastic Surgeons</option>
+            <option id="category10" value="Real-Estate">Real Estate</option>
+            <option id="category11" value="Sports-Medicine">Sports Medicine</option>
+            <option id="category12" value="Veterinarians">Veterinarians</option>
+        </select>
+        
+        <button id="filterBtn">Filter</button>
+    </div>
+    
+<div class="container">
+    <table class="table" id="table0">
+        <thead>
+            <tr>
+                <th>Canada</th>
+                <th>01</th>
+                <th>01</th>
+                <th>01</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>namknjasvbnj</td>
+                <td>namknjasvbnj</td>
+                <td>namknjasvbnj</td>
+                <td>namknjasvbnj</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table" id="table01">
+        <thead>
+            <tr>
+                <th>Germany Football</th>
+                <th>01</th>
+                <th>01</th>
+                <th>01</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>namknjasvbnj</td>
+                <td>namknjasvbnj</td>
+                <td>namknjasvbnj</td>
+                <td>namknjasvbnj</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="table" id="table02">
+        <thead>
+            <tr>
+                <th>France Football</th>
+                <th>01</th>
+                <th>01</th>
+                <th>01</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>namknjasvbnj</td>
+                <td>namknjasvbnj</td>
+                <td>namknjasvbnj</td>
+                <td>namknjasvbnj</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="table.js"></script>
+    <script src="function.js"></script>
+</body>
+</html>
